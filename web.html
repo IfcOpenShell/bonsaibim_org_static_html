@@ -16,7 +16,7 @@
         <link rel="icon" type="image/svg+xml" href="assets/images/downloads/Bonsai.svg" />
         <link rel="icon" type="image/png" href="assets/images/favicon-blender.png" />
         
-        <title>Bonsai - beautiful, detailed, and data-rich OpenBIM</title>
+        <title>Bonsai Web - view and share IFC models in the browser</title>
     </head>
     <body class="home-page">
         <!--=== Start Header Section ===-->
@@ -37,7 +37,7 @@
                         <ul class="navbar-nav">
                             
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">home<span></span></a>
+                                <a href="index.html" class="nav-link">home<span></span></a>
                             </li>
                             <li class="nav-item">
                                 <a href="studio.html" class="nav-link">studio<span></span></a>
@@ -46,7 +46,7 @@
                                 <a href="viewer.html" class="nav-link">viewer<span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a href="web.html" class="nav-link">web<span></span></a>
+                                <a href="web.html" class="nav-link active">web<span></span></a>
                             </li>
                             <li class="nav-item">
                                 <a href="community.html" class="nav-link">community<span></span></a>
@@ -103,7 +103,7 @@
                 <ul id="mobile-menu-active">
                     
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">home<span></span></a>
+                        <a href="index.html" class="nav-link">home<span></span></a>
                     </li>
                     <li class="nav-item">
                         <a href="studio.html" class="nav-link">studio<span></span></a>
@@ -112,7 +112,7 @@
                         <a href="viewer.html" class="nav-link">viewer<span></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="web.html" class="nav-link">web<span></span></a>
+                        <a href="web.html" class="nav-link active">web<span></span></a>
                     </li>
                     <li class="nav-item">
                         <a href="community.html" class="nav-link">community<span></span></a>
@@ -131,132 +131,97 @@
 	<!--=== Hero ===-->
 	<section class="bx-hero">
 		<div class="bx-wrap">
-			<div class="bx-hero-grid">
+			<div class="bx-hero-grid solo">
 				<div class="bx-hero-copy wow fadeInUp delay-0-2s">
-					<span class="bx-eyebrow">Free &amp; open source, native IFC</span>
-					<h1 class="bx-h1">Bonsai</h1>
+					<div class="bx-hero-id">
+						<img class="bx-hero-logo" src="assets/images/downloads/BonsaiWeb.svg" alt="Bonsai Web icon" />
+						<span class="bx-eyebrow orange">Coming soon</span>
+					</div>
+					<h1 class="bx-h1">Bonsai in the browser</h1>
 					<p class="bx-lead">
-						Beautiful, detailed, and data-rich OpenBIM. Bonsai is a family of open source
-						apps for authoring, reviewing, and sharing IFC models, with no lock-in and no
-						proprietary formats, ever.
+						View and share IFC models straight from the browser. No install, no plugins, and no
+						data leaving the viewer's machine. Send a link and let anyone explore your BIM data
+						on any device.
 					</p>
 					<div class="bx-cta-row">
-						<a href="#apps" class="bx-btn bx-btn-primary">Explore the apps</a>
-						<a href="https://docs.bonsaibim.org/studio/" class="bx-btn bx-btn-ghost">Documentation</a>
-					</div>
-				</div>
-				<div class="bx-hero-media wow fadeInUp delay-0-4s">
-					<div class="bx-frame bare">
-						<img src="assets/images/bonsai/screenshots/home-hero.png" alt="Bonsai Studio, Bonsai Viewer, and Bonsai Web" />
+						<a href="#viewer" class="bx-btn bx-btn-primary">Try the live viewer</a>
+						<a href="https://docs.bonsaibim.org/web/" class="bx-btn bx-btn-ghost">Documentation</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!--=== Product cards ===-->
-	<section class="bx-section tint" id="apps">
+	<!--=== Embedded live viewer ===-->
+	<section class="bx-section tint" id="viewer">
 		<div class="bx-wrap">
 			<div class="bx-section-head bx-center">
-				<span class="bx-eyebrow">Choose your workflow</span>
-				<h2 class="bx-h2">Three apps, one OpenBIM platform</h2>
-				<p class="bx-lead">Same open IFC core. Pick the experience that fits how you work.</p>
+				<span class="bx-eyebrow orange">Live preview</span>
+				<h2 class="bx-h2">Try it in your browser</h2>
+				<p class="bx-lead">An early look at the embedded viewer. It will run right here on the page.</p>
 			</div>
-			<div class="bx-products">
-				<a href="studio.html" class="bx-card wow fadeInUp delay-0-2s">
-					<div class="bx-card-media">
-						<img src="assets/images/bonsai/screenshots/studio-authoring.png" alt="Bonsai Studio" />
+			<div class="bx-embed-frame wow fadeInUp delay-0-2s">
+				<div class="bx-embed">
+					<!--
+					Drop the live Bonsai Web embed here when it is ready, e.g.:
+					<iframe src="https://web.bonsaibim.org/embed?model=demo" title="Bonsai Web live viewer" allow="fullscreen"></iframe>
+					Removing the placeholder below will reveal the iframe.
+					-->
+					<img class="bx-embed-poster" src="assets/images/bonsai/screenshots/web-embed.png" alt="" />
+					<div class="bx-embed-placeholder">
+						<span class="bx-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></span>
+						<h4>Live viewer coming soon</h4>
+						<p>The interactive Bonsai Web viewer will load right here, so you can pan, orbit, and
+						inspect IFC models with nothing to install.</p>
 					</div>
-					<div class="bx-card-body">
-						<img class="bx-card-logo" src="assets/images/downloads/Bonsai.svg" alt="Bonsai Studio icon" />
-						<h3>Bonsai Studio</h3>
-						<p>The full native IFC authoring environment built on Blender. Model, document,
-						and manage BIM data across every discipline.</p>
-						<span class="bx-textlink">Explore Studio <span class="bx-arrow">&rarr;</span></span>
-					</div>
-				</a>
-				<a href="viewer.html" class="bx-card wow fadeInUp delay-0-4s">
-					<div class="bx-card-media">
-						<img src="assets/images/bonsai/screenshots/viewer-section.png" alt="Bonsai Viewer" />
-					</div>
-					<div class="bx-card-body">
-						<img class="bx-card-logo" src="assets/images/downloads/BonsaiViewer.svg" alt="Bonsai Viewer icon" />
-						<h3>Bonsai Viewer</h3>
-						<p>A fast, lightweight desktop viewer for exploring and coordinating IFC models,
-						drawings, and data, with no authoring environment required.</p>
-						<span class="bx-textlink">Explore Viewer <span class="bx-arrow">&rarr;</span></span>
-					</div>
-				</a>
-				<a href="web.html" class="bx-card wow fadeInUp delay-0-6s">
-					<div class="bx-card-media">
-						<span class="bx-badge">Coming soon</span>
-						<img src="assets/images/bonsai/screenshots/web-embed.png" alt="Bonsai Web" />
-					</div>
-					<div class="bx-card-body">
-						<img class="bx-card-logo" src="assets/images/downloads/BonsaiWeb.svg" alt="Bonsai Web icon" />
-						<h3>Bonsai Web</h3>
-						<p>View and share IFC models straight from the browser. Send a link and let anyone
-						explore your BIM data, with nothing to install.</p>
-						<span class="bx-textlink">Explore Web <span class="bx-arrow">&rarr;</span></span>
-					</div>
-				</a>
+				</div>
 			</div>
-			<p class="bx-credit bx-center">Models shown: <a href="https://github.com/OpeningDesign/Aalseth_Residence">Aalseth Residence</a> and <a href="https://github.com/OpeningDesign/CTR">The Current (CTR)</a> by <a href="https://openingdesign.com">OpeningDesign</a> and project team, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+			<p class="bx-credit bx-center">Model: <a href="https://github.com/OpeningDesign/CTR">The Current (CTR)</a> by <a href="https://openingdesign.com">OpeningDesign</a> and project team, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
 		</div>
 	</section>
 
-	<!--=== Value strip ===-->
+	<!--=== Feature chips ===-->
 	<section class="bx-section">
 		<div class="bx-wrap">
 			<div class="bx-section-head bx-center">
-				<h2 class="bx-h2">Built on open foundations</h2>
+				<h2 class="bx-h2">OpenBIM, one link away</h2>
 			</div>
 			<div class="bx-chips">
 				<div class="bx-chip wow fadeInUp delay-0-2s">
-					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/free-forever.svg" alt="" /></div>
-					<h4>Free forever</h4>
-					<p>Bonsai is free software and always will be, sustained by a community of hundreds of contributors.</p>
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/nothing-to-install.svg" alt="" /></div>
+					<h4>Nothing to install</h4>
+					<p>Runs entirely in the browser. Open a link and start exploring instantly.</p>
+				</div>
+				<div class="bx-chip wow fadeInUp delay-0-3s">
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/share-anywhere.svg" alt="" /></div>
+					<h4>Share anywhere</h4>
+					<p>Send stakeholders a URL to review models on desktop, tablet, or phone.</p>
 				</div>
 				<div class="bx-chip wow fadeInUp delay-0-4s">
-					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/native-ifc.svg" alt="" /></div>
-					<h4>Native IFC</h4>
-					<p>Every edit reads and writes real IFC. Your data lives in an open standard, not a proprietary file.</p>
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/private-by-default.svg" alt="" /></div>
+					<h4>Private by default</h4>
+					<p>Powered by WebAssembly, so models are read client-side and never uploaded.</p>
 				</div>
-				<div class="bx-chip wow fadeInUp delay-0-6s">
-					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/no-lock-in.svg" alt="" /></div>
-					<h4>No lock-in</h4>
-					<p>Powered by IfcOpenShell and fully scriptable in Python. Automate anything, own everything.</p>
+			</div>
+		</div>
+	</section>
+
+	<!--=== Stay updated band ===-->
+	<section class="bx-section">
+		<div class="bx-wrap">
+			<div class="bx-cta-band wow fadeInUp delay-0-2s">
+				<h2 class="bx-h2">Bonsai Web is on the way</h2>
+				<p class="bx-lead">Follow along as we build it, or help make it happen sooner.</p>
+				<div class="bx-cta-row">
+					<a href="https://github.com/IfcOpenShell/IfcOpenShell" class="bx-btn bx-btn-primary">Follow on GitHub</a>
+					<a href="https://opencollective.com/opensourcebim" class="bx-btn bx-btn-donate">Donate</a>
+					<a href="https://docs.bonsaibim.org/web/" class="bx-btn bx-btn-ghost">Documentation</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
 </div>
-		<div class="container started-section blender-logo-section" >
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<ul class="blender-logos">
-						<li>
-							<img src="assets/images/blender/logo1.jpg" alt="Partner" class="wow fadeInUp delay-0-8s" />
-						</li>
-						<li>
-							<img src="assets/images/blender/logo2.jpg" alt="Partner" class="wow fadeInUp delay-0-8s"  />
-						</li>
-						<li>
-							<img src="assets/images/blender/logo3.jpg" alt="Partner" class="wow fadeInUp delay-0-8s"  />
-						</li>
-						<li>
-							<img src="assets/images/blender/logo4.jpg" alt="Partner" class="wow fadeInUp delay-0-8s"  />
-						</li>
-						<li>
-							<img src="assets/images/partner/cesium_grant_56353427842359.png" alt="Cesium ecosystem grant" class="wow fadeInUp delay-0-8s" style="width:128px;height:128px" />
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</div>
-
         <div class="footer-section copy-wrap">
             <div class="container">
                 <div>

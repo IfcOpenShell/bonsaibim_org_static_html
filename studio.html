@@ -16,7 +16,7 @@
         <link rel="icon" type="image/svg+xml" href="assets/images/downloads/Bonsai.svg" />
         <link rel="icon" type="image/png" href="assets/images/favicon-blender.png" />
         
-        <title>Bonsai - beautiful, detailed, and data-rich OpenBIM</title>
+        <title>Bonsai Studio - native IFC authoring in Blender</title>
     </head>
     <body class="home-page">
         <!--=== Start Header Section ===-->
@@ -37,10 +37,10 @@
                         <ul class="navbar-nav">
                             
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">home<span></span></a>
+                                <a href="index.html" class="nav-link">home<span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a href="studio.html" class="nav-link">studio<span></span></a>
+                                <a href="studio.html" class="nav-link active">studio<span></span></a>
                             </li>
                             <li class="nav-item">
                                 <a href="viewer.html" class="nav-link">viewer<span></span></a>
@@ -103,10 +103,10 @@
                 <ul id="mobile-menu-active">
                     
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">home<span></span></a>
+                        <a href="index.html" class="nav-link">home<span></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="studio.html" class="nav-link">studio<span></span></a>
+                        <a href="studio.html" class="nav-link active">studio<span></span></a>
                     </li>
                     <li class="nav-item">
                         <a href="viewer.html" class="nav-link">viewer<span></span></a>
@@ -133,130 +133,149 @@
 		<div class="bx-wrap">
 			<div class="bx-hero-grid">
 				<div class="bx-hero-copy wow fadeInUp delay-0-2s">
-					<span class="bx-eyebrow">Free &amp; open source, native IFC</span>
-					<h1 class="bx-h1">Bonsai</h1>
+					<div class="bx-hero-id">
+						<img class="bx-hero-logo" src="assets/images/downloads/Bonsai.svg" alt="Bonsai Studio icon" />
+						<span class="bx-eyebrow">Bonsai Studio, Blender add-on</span>
+					</div>
+					<h1 class="bx-h1">Author IFC, natively</h1>
 					<p class="bx-lead">
-						Beautiful, detailed, and data-rich OpenBIM. Bonsai is a family of open source
-						apps for authoring, reviewing, and sharing IFC models, with no lock-in and no
-						proprietary formats, ever.
+						Bonsai Studio is a free, open source, native IFC authoring platform built on
+						Blender. Model, document, coordinate, and manage rich BIM data across every
+						discipline, and automate all of it with Python.
 					</p>
 					<div class="bx-cta-row">
-						<a href="#apps" class="bx-btn bx-btn-primary">Explore the apps</a>
+						<a href="https://docs.bonsaibim.org/studio/quickstart/installation.html" class="bx-btn bx-btn-primary">
+							<img src="assets/images/banner/download-icon.png" alt="" /> Download v0.9.0
+						</a>
 						<a href="https://docs.bonsaibim.org/studio/" class="bx-btn bx-btn-ghost">Documentation</a>
 					</div>
+					<p class="bx-note">Alpha software. Good luck, have fun. Windows, macOS &amp; Linux.</p>
 				</div>
 				<div class="bx-hero-media wow fadeInUp delay-0-4s">
-					<div class="bx-frame bare">
-						<img src="assets/images/bonsai/screenshots/home-hero.png" alt="Bonsai Studio, Bonsai Viewer, and Bonsai Web" />
+					<div class="bx-frame">
+						<img src="assets/images/bonsai/screenshots/studio-authoring.png" alt="Authoring an IFC model in Bonsai Studio" />
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!--=== Product cards ===-->
-	<section class="bx-section tint" id="apps">
+	<!--=== Feature rows ===-->
+	<section class="bx-section">
 		<div class="bx-wrap">
-			<div class="bx-section-head bx-center">
-				<span class="bx-eyebrow">Choose your workflow</span>
-				<h2 class="bx-h2">Three apps, one OpenBIM platform</h2>
-				<p class="bx-lead">Same open IFC core. Pick the experience that fits how you work.</p>
+
+			<div class="bx-feature wow fadeInUp delay-0-2s">
+				<div class="bx-feature-media">
+					<div class="bx-frame">
+						<img src="assets/images/blender/banner-image2.png" alt="Native IFC authoring" />
+					</div>
+				</div>
+				<div class="bx-feature-text">
+					<span class="bx-eyebrow">Native IFC authoring</span>
+					<h3>Create and edit real IFC models</h3>
+					<p>Every object, property, and relationship you create is native IFC. Build spatial
+					hierarchies, place elements, and manage classifications and documents, all reading
+					and writing directly to an open standard.</p>
+				</div>
 			</div>
-			<div class="bx-products">
-				<a href="studio.html" class="bx-card wow fadeInUp delay-0-2s">
-					<div class="bx-card-media">
-						<img src="assets/images/bonsai/screenshots/studio-authoring.png" alt="Bonsai Studio" />
+
+			<div class="bx-feature reverse wow fadeInUp delay-0-2s">
+				<div class="bx-feature-media">
+					<div class="bx-frame">
+						<img src="assets/images/bonsai/screenshots/studio-drawings.jpg" alt="Construction drawing sheet produced with Bonsai, by OpeningDesign (CC BY-SA 4.0)" />
 					</div>
-					<div class="bx-card-body">
-						<img class="bx-card-logo" src="assets/images/downloads/Bonsai.svg" alt="Bonsai Studio icon" />
-						<h3>Bonsai Studio</h3>
-						<p>The full native IFC authoring environment built on Blender. Model, document,
-						and manage BIM data across every discipline.</p>
-						<span class="bx-textlink">Explore Studio <span class="bx-arrow">&rarr;</span></span>
-					</div>
-				</a>
-				<a href="viewer.html" class="bx-card wow fadeInUp delay-0-4s">
-					<div class="bx-card-media">
-						<img src="assets/images/bonsai/screenshots/viewer-section.png" alt="Bonsai Viewer" />
-					</div>
-					<div class="bx-card-body">
-						<img class="bx-card-logo" src="assets/images/downloads/BonsaiViewer.svg" alt="Bonsai Viewer icon" />
-						<h3>Bonsai Viewer</h3>
-						<p>A fast, lightweight desktop viewer for exploring and coordinating IFC models,
-						drawings, and data, with no authoring environment required.</p>
-						<span class="bx-textlink">Explore Viewer <span class="bx-arrow">&rarr;</span></span>
-					</div>
-				</a>
-				<a href="web.html" class="bx-card wow fadeInUp delay-0-6s">
-					<div class="bx-card-media">
-						<span class="bx-badge">Coming soon</span>
-						<img src="assets/images/bonsai/screenshots/web-embed.png" alt="Bonsai Web" />
-					</div>
-					<div class="bx-card-body">
-						<img class="bx-card-logo" src="assets/images/downloads/BonsaiWeb.svg" alt="Bonsai Web icon" />
-						<h3>Bonsai Web</h3>
-						<p>View and share IFC models straight from the browser. Send a link and let anyone
-						explore your BIM data, with nothing to install.</p>
-						<span class="bx-textlink">Explore Web <span class="bx-arrow">&rarr;</span></span>
-					</div>
-				</a>
+					<p class="bx-credit">Drawing: <a href="https://hub.openingdesign.com/OpeningDesign/Cool_Car_Guys">Cool Car Guys</a> by <a href="https://openingdesign.com">OpeningDesign</a> and project team, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+				</div>
+				<div class="bx-feature-text">
+					<span class="bx-eyebrow">Documentation</span>
+					<h3>Drawings, schedules &amp; reports</h3>
+					<p>Generate and annotate 2D drawings from your 3D model, keep them linked and
+					coordinated, and produce schedules and reports that always reflect the live data
+					in your model.</p>
+				</div>
 			</div>
-			<p class="bx-credit bx-center">Models shown: <a href="https://github.com/OpeningDesign/Aalseth_Residence">Aalseth Residence</a> and <a href="https://github.com/OpeningDesign/CTR">The Current (CTR)</a> by <a href="https://openingdesign.com">OpeningDesign</a> and project team, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+
+			<div class="bx-feature wow fadeInUp delay-0-2s">
+				<div class="bx-feature-media">
+					<div class="bx-frame">
+						<img src="assets/images/blender/banner-image3.png" alt="A structural model alongside its construction schedule" />
+					</div>
+				</div>
+				<div class="bx-feature-text">
+					<span class="bx-eyebrow">Every discipline</span>
+					<h3>One model, coordinated</h3>
+					<p>Architecture, structure, and MEP share one model with the cost plans and
+					construction schedules built on top of it. Link tasks and cost items directly to
+					elements, so designers, engineers, estimators, and planners all work from the same
+					live data.</p>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
-	<!--=== Value strip ===-->
-	<section class="bx-section">
+	<!--=== Capability chips ===-->
+	<section class="bx-section tint">
 		<div class="bx-wrap">
 			<div class="bx-section-head bx-center">
-				<h2 class="bx-h2">Built on open foundations</h2>
+				<h2 class="bx-h2">A whole BIM workflow, built in</h2>
+				<p class="bx-lead">From early analysis to facility management, and everything scriptable.</p>
 			</div>
 			<div class="bx-chips">
 				<div class="bx-chip wow fadeInUp delay-0-2s">
-					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/free-forever.svg" alt="" /></div>
-					<h4>Free forever</h4>
-					<p>Bonsai is free software and always will be, sustained by a community of hundreds of contributors.</p>
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/audit-analyse.svg" alt="" /></div>
+					<h4>Audit &amp; analyse</h4>
+					<p>Interrogate model data, validate requirements, and catch issues early.</p>
+				</div>
+				<div class="bx-chip wow fadeInUp delay-0-3s">
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/structural-analysis.svg" alt="" /></div>
+					<h4>Structural analysis</h4>
+					<p>Define analytical models and connect to structural solvers.</p>
 				</div>
 				<div class="bx-chip wow fadeInUp delay-0-4s">
-					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/native-ifc.svg" alt="" /></div>
-					<h4>Native IFC</h4>
-					<p>Every edit reads and writes real IFC. Your data lives in an open standard, not a proprietary file.</p>
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/mep-systems.svg" alt="" /></div>
+					<h4>MEP systems</h4>
+					<p>Author distribution systems and connected building services.</p>
 				</div>
-				<div class="bx-chip wow fadeInUp delay-0-6s">
-					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/no-lock-in.svg" alt="" /></div>
-					<h4>No lock-in</h4>
-					<p>Powered by IfcOpenShell and fully scriptable in Python. Automate anything, own everything.</p>
+				<div class="bx-chip wow fadeInUp delay-0-2s">
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/costing-scheduling.svg" alt="" /></div>
+					<h4>Costing &amp; scheduling</h4>
+					<p>Drive 4D sequencing and 5D cost estimation straight from the model.</p>
+				</div>
+				<div class="bx-chip wow fadeInUp delay-0-3s">
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/facility-management.svg" alt="" /></div>
+					<h4>Facility management</h4>
+					<p>Structure handover data with COBie and FM-ready specifications.</p>
+				</div>
+				<div class="bx-chip wow fadeInUp delay-0-4s">
+					<div class="bx-chip-ico"><img src="assets/images/bonsai/icons/fully-scriptable.svg" alt="" /></div>
+					<h4>Fully scriptable</h4>
+					<p>Automate any task through the Python API powered by IfcOpenShell.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--=== Download / donate band ===-->
+	<section class="bx-section">
+		<div class="bx-wrap">
+			<div class="bx-cta-band wow fadeInUp delay-0-2s">
+				<h2 class="bx-h2">Get Bonsai Studio</h2>
+				<p class="bx-lead">Free software, forever. If it helps your work, help us build more of it.</p>
+				<div class="bx-cta-row">
+					<a href="https://docs.bonsaibim.org/studio/quickstart/installation.html" class="bx-btn bx-btn-primary">Download</a>
+					<a href="https://opencollective.com/opensourcebim" class="bx-btn bx-btn-donate">Donate</a>
+					<a href="https://docs.bonsaibim.org/studio/" class="bx-btn bx-btn-ghost">Documentation</a>
+				</div>
+				<div class="bx-fund">
+					<div class="bx-fund-track"><span class="bx-fund-fill"></span></div>
+					<p class="bx-fund-label"><strong class="amount-raised">$</strong> raised of $5,000 goal per month</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
 </div>
-		<div class="container started-section blender-logo-section" >
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<ul class="blender-logos">
-						<li>
-							<img src="assets/images/blender/logo1.jpg" alt="Partner" class="wow fadeInUp delay-0-8s" />
-						</li>
-						<li>
-							<img src="assets/images/blender/logo2.jpg" alt="Partner" class="wow fadeInUp delay-0-8s"  />
-						</li>
-						<li>
-							<img src="assets/images/blender/logo3.jpg" alt="Partner" class="wow fadeInUp delay-0-8s"  />
-						</li>
-						<li>
-							<img src="assets/images/blender/logo4.jpg" alt="Partner" class="wow fadeInUp delay-0-8s"  />
-						</li>
-						<li>
-							<img src="assets/images/partner/cesium_grant_56353427842359.png" alt="Cesium ecosystem grant" class="wow fadeInUp delay-0-8s" style="width:128px;height:128px" />
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</div>
-
         <div class="footer-section copy-wrap">
             <div class="container">
                 <div>
